@@ -19,7 +19,7 @@
 					</h5>
 
 					<p class="card-text">
-						<?php /*the_excerpt();*/ the_content('', true);?>
+						<?php the_excerpt(); /*the_content('', true);*/?>
 					</p>
 					<a href="<?php the_permalink(); ?>" class="btn btn-primary">Переход</a>
 				</div>
